@@ -1,62 +1,62 @@
-disease_class,label_name,desc,crop_class,degree_class,disease_index
-0,apple healthy,苹果健康,0,0,0
-1,Apple_Scab general,苹果黑星病一般,0,1,1
-2,Apple_Scab serious,苹果黑星病严重,0,2,1
-3,Apple Frogeye Spot,苹果灰斑病,0,3,0
-4,Cedar Apple Rust? general,苹果雪松锈病一般,0,1,2
-5,Cedar Apple Rust serious,苹果雪松锈病严重,0,2,2
-6,Cherry healthy,樱桃健康,1,0,0
-7,Cherry_Powdery Mildew? general,樱桃白粉病一般,1,1,1
-8,Cherry_Powdery Mildew? serious,樱桃白粉病严重,1,2,1
-9,Corn healthy,玉米健康,2,0,0
-10,Cercospora zeaemaydis Tehon and Daniels general,玉米灰斑病一般,2,1,1
-11,Cercospora zeaemaydis Tehon and Daniels? serious,玉米灰斑病严重,2,2,1
-12,Puccinia polysora? general,玉米锈病一般,2,1,2
-13,Puccinia polysora serious,玉米锈病严重,2,2,2
-14,Corn Curvularia leaf spot fungus general,玉米叶斑病一般,2,1,3
-15,Corn Curvularia leaf spot fungus? serious,玉米叶斑病严重,2,2,3
-16,Maize dwarf mosaic virus,玉米花叶病毒病,2,3,0
-17,Grape heathy,葡萄健康,3,0,0
-18,Grape Black Rot Fungus general,葡萄黑腐病一般,3,1,1
-19,Grape Black Rot Fungus serious,葡萄黑腐病严重,3,2,1
-20,Grape Black Measles Fungus general,葡萄轮斑病一般,3,1,2
-21,Grape Black Measles Fungus serious,葡萄轮斑病严重,3,2,2
-22,Grape Leaf Blight Fungus general,葡萄褐斑病一般,3,1,3
-23,Grape Leaf Blight Fungus? serious,葡萄褐斑病严重,3,2,3
-24,Citrus healthy,柑桔健康,4,0,0
-25,Citrus Greening June? general,柑桔黄龙病一般,4,1,1
-26,Citrus Greening June? serious,柑桔黄龙病严重,4,2,1
-27,Peach healthy,桃子健康,4,0,0
-28,Peach_Bacterial Spot general,桃疮痂病一般,4,1,1
-29,Peach_Bacterial Spot? serious,桃疮痂病严重,4,2,1
-30,Pepper healthy,辣椒健康,5,0,0
-31,Pepper scab general,辣椒疮痂病一般,5,1,1
-32,Pepper scab? serious,辣椒疮痂病严重,5,2,1
-33,Potato healthy,马铃薯健康,6,0,0
-34,Potato_Early Blight Fungus general,马铃薯早疫病一般,6,1,1
-35,Potato_Early Blight Fungus serious,马铃薯早疫病严重,6,2,1
-36,Potato_Late Blight Fungus general,马铃薯晚疫病一般,6,1,2
-37,Potato_Late Blight Fungus? serious,马铃薯晚疫病严重,6,2,2
-38,Strawberry healthy,草莓健康,7,0,0
-39,Strawberry_Scorch general,草莓叶枯病一般,7,1,1
-40,Strawberry_Scorch serious,草莓叶枯病严重,7,2,1
-41,Tomato healthy,番茄健康,8,0,0
-42,tomato powdery mildew? general,番茄白粉病一般,8,1,1
-43,tomato powdery mildew? serious,番茄白粉病严重,8,2,1
-44,Tomato Bacterial Spot Bacteria general,番茄疮痂病一般,8,1,2
-45,Tomato Bacterial Spot Bacteria? serious,番茄疮痂病严重,8,2,2
-46,Tomato_Early Blight Fungus general,番茄早疫病一般,8,1,3
-47,Tomato_Early Blight Fungus? serious,番茄早疫病严重,8,2,3
-48,Tomato_Late Blight Water Mold? general,番茄晚疫病菌一般,8,1,4
-49,Tomato_Late Blight Water Mold serious,番茄晚疫病菌严重,8,2,4
-50,Tomato_Leaf Mold Fungus general,番茄叶霉病一般,8,1,5
-51,Tomato_Leaf Mold Fungus serious,番茄叶霉病严重,8,2,5
-52,Tomato Target Spot Bacteria? general,番茄斑点病一般,8,1,6
-53,Tomato Target Spot Bacteria? serious,番茄斑点病严重,8,2,6
-54,Tomato_Septoria Leaf Spot Fungus? general,番茄斑枯病一般,8,1,7
-55,Tomato_Septoria Leaf Spot Fungus? serious,番茄斑枯病严重,8,2,7
-56,Tomato Spider Mite Damage general,番茄红蜘蛛损伤一般,8,1,8
-57,Tomato Spider Mite Damage serious,番茄红蜘蛛损伤严重,8,2,8
-58,Tomato YLCV Virus general,番茄黄化曲叶病毒病一般,8,1,9
-59,Tomato YLCV Virus? serious,番茄黄化曲叶病毒病严重,8,2,9
-60,Tomato Tomv,番茄花叶病毒病,8,3,0
+disease_class,label_name,desc,crop_class,degree_class,crop_disease_index,disease_index
+0,apple healthy,苹果健康,0,0,0,0
+1,Apple_Scab general,苹果黑星病一般,0,1,1,1
+2,Apple_Scab serious,苹果黑星病严重,0,2,1,1
+3,Apple Frogeye Spot,苹果灰斑病,0,3,0,2
+4,Cedar Apple Rust? general,苹果雪松锈病一般,0,1,2,3
+5,Cedar Apple Rust serious,苹果雪松锈病严重,0,2,2,3
+6,Cherry healthy,樱桃健康,1,0,0,0
+7,Cherry_Powdery Mildew? general,樱桃白粉病一般,1,1,1,4
+8,Cherry_Powdery Mildew? serious,樱桃白粉病严重,1,2,1,4
+9,Corn healthy,玉米健康,2,0,0,0
+10,Cercospora zeaemaydis Tehon and Daniels general,玉米灰斑病一般,2,1,1,2
+11,Cercospora zeaemaydis Tehon and Daniels? serious,玉米灰斑病严重,2,2,1,2
+12,Puccinia polysora? general,玉米锈病一般,2,1,2,3
+13,Puccinia polysora serious,玉米锈病严重,2,2,2,3
+14,Corn Curvularia leaf spot fungus general,玉米叶斑病一般,2,1,3,5
+15,Corn Curvularia leaf spot fungus? serious,玉米叶斑病严重,2,2,3,5
+16,Maize dwarf mosaic virus,玉米花叶病毒病,2,3,0,6
+17,Grape heathy,葡萄健康,3,0,0,0
+18,Grape Black Rot Fungus general,葡萄黑腐病一般,3,1,1,7
+19,Grape Black Rot Fungus serious,葡萄黑腐病严重,3,2,1,7
+20,Grape Black Measles Fungus general,葡萄轮斑病一般,3,1,2,8
+21,Grape Black Measles Fungus serious,葡萄轮斑病严重,3,2,2,8
+22,Grape Leaf Blight Fungus general,葡萄褐斑病一般,3,1,3,9
+23,Grape Leaf Blight Fungus? serious,葡萄褐斑病严重,3,2,3,9
+24,Citrus healthy,柑桔健康,4,0,0,0
+25,Citrus Greening June? general,柑桔黄龙病一般,4,1,1,10
+26,Citrus Greening June? serious,柑桔黄龙病严重,4,2,1,10
+27,Peach healthy,桃子健康,9,0,0,0
+28,Peach_Bacterial Spot general,桃疮痂病一般,9,1,1,11
+29,Peach_Bacterial Spot? serious,桃疮痂病严重,9,2,1,11
+30,Pepper healthy,辣椒健康,5,0,0,0
+31,Pepper scab general,辣椒疮痂病一般,5,1,1,11
+32,Pepper scab? serious,辣椒疮痂病严重,5,2,1,11
+33,Potato healthy,马铃薯健康,6,0,0,0
+34,Potato_Early Blight Fungus general,马铃薯早疫病一般,6,1,1,12
+35,Potato_Early Blight Fungus serious,马铃薯早疫病严重,6,2,1,12
+36,Potato_Late Blight Fungus general,马铃薯晚疫病一般,6,1,2,13
+37,Potato_Late Blight Fungus? serious,马铃薯晚疫病严重,6,2,2,13
+38,Strawberry healthy,草莓健康,7,0,0,0
+39,Strawberry_Scorch general,草莓叶枯病一般,7,1,1,14
+40,Strawberry_Scorch serious,草莓叶枯病严重,7,2,1,14
+41,Tomato healthy,番茄健康,8,0,0,0
+42,tomato powdery mildew? general,番茄白粉病一般,8,1,1,4
+43,tomato powdery mildew? serious,番茄白粉病严重,8,2,1,4
+44,Tomato Bacterial Spot Bacteria general,番茄疮痂病一般,8,1,2,11
+45,Tomato Bacterial Spot Bacteria? serious,番茄疮痂病严重,8,2,2,11
+46,Tomato_Early Blight Fungus general,番茄早疫病一般,8,1,3,12
+47,Tomato_Early Blight Fungus? serious,番茄早疫病严重,8,2,3,12
+48,Tomato_Late Blight Water Mold? general,番茄晚疫病菌一般,8,1,4,13
+49,Tomato_Late Blight Water Mold serious,番茄晚疫病菌严重,8,2,4,13
+50,Tomato_Leaf Mold Fungus general,番茄叶霉病一般,8,1,5,15
+51,Tomato_Leaf Mold Fungus serious,番茄叶霉病严重,8,2,5,15
+52,Tomato Target Spot Bacteria? general,番茄斑点病一般,8,1,6,16
+53,Tomato Target Spot Bacteria? serious,番茄斑点病严重,8,2,6,16
+54,Tomato_Septoria Leaf Spot Fungus? general,番茄斑枯病一般,8,1,7,17
+55,Tomato_Septoria Leaf Spot Fungus? serious,番茄斑枯病严重,8,2,7,17
+56,Tomato Spider Mite Damage general,番茄红蜘蛛损伤一般,8,1,8,18
+57,Tomato Spider Mite Damage serious,番茄红蜘蛛损伤严重,8,2,8,18
+58,Tomato YLCV Virus general,番茄黄化曲叶病毒病一般,8,1,9,19
+59,Tomato YLCV Virus? serious,番茄黄化曲叶病毒病严重,8,2,9,19
+60,Tomato Tomv,番茄花叶病毒病,8,3,0,6
