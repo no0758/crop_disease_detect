@@ -1,4 +1,4 @@
-disease_class,label_name,desc,crop_index,degree,disease_index
+disease_class,label_name,desc,crop_class,degree_class,disease_index
 0,apple healthy,苹果健康,0,0,0
 1,Apple_Scab general,苹果黑星病一般,0,1,1
 2,Apple_Scab serious,苹果黑星病严重,0,2,1
