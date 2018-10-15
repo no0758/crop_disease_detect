@@ -26,7 +26,7 @@ for epoch in range(epochs):
         loss.backward()
         optimizer.step()
         running_loss += loss.item()
-        if i % 100 == 99: #每100个batch打印一次训练状态
+        if i % 10 == 9: #每10个batch打印一次训练状态
             average_loss = running_loss/10
             print("[{0},{1}] loss:  {2}".format(epoch+1, i+1, average_loss))
             average_loss_series.append(average_loss)
