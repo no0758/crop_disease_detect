@@ -16,4 +16,4 @@ test_data_path = test_file + 'AgriculturalDisease_validation_annotations.json'
 train_data = json.load(open(train_data_path,'rb'))
 test_data = json.load(open(test_data_path,'rb'))
 
-batch_size = 10
+batch_size = 128
