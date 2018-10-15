@@ -10,7 +10,7 @@ resnet50 = models.resnet50(num_classes=61)
 criterion = nn.CrossEntropyLoss()
 
 
-optimizer = optim.SGD(params=resnet50.parameters(),lr=0.0001)
+optimizer = optim.Adam(params=resnet50.parameters(),lr=0.01,weight_decay=1e-4)
 
 epochs = 60
 average_loss_series = []
